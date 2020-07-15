@@ -2,26 +2,17 @@
   <div id="__nuxt">
     <div id="__layout">
       <div class="lApp">
-        <header class="lHeader">
-          <div>
-            <div class="lContainer-wide pNav-container">
-              <nav class="pNav">
-                <div class="pNav_sp">
-                  <a href="/" class="pNav-logo">PLATFORM</a>
-                  <button class="pNav_menu_trigger"></button>
-                </div>
-                <div class="pNav_inner"></div>
-              </nav>
-            </div>
-          </div>
-        </header>
         <main class="lMain">
           <div class="lContent">
             <div class="lPage jsTrans jsScl_cnl pTop">
               <div class="is-started">
                 <div>
                   <section class="pTop_mv">
-                    <div class="pTop_mv_bg"></div>
+                    <div class="pTop_mv_bg">
+                      <div class="pTop_mv_bg_inner uImg_fit jsLoad_top_mv">
+                        <div class="pTop_mv_bg_img uImg_fit -bg-fit jsImg_preload -bgLoad"></div>
+                      </div>
+                    </div>
                     <div class="pTop_mv_wrap">
                       <div class="lContainer-middle pTop_mv_inner">
                         <div>
@@ -49,7 +40,7 @@
                     </div>
                   </section>
                   <div class="pTop_news">
-                    <div class="lContainer-middle">
+                    <div class="lContainer-middle" data-v-2d950f8c>
                       <ul class="pTop-news-li">
                         <li class="pTop_news_li_i">
                           <div class="pTop_news_li_block">
@@ -91,9 +82,27 @@
                       <section class="pTop_feature -app">
                         <div class="-origin lContainer-fill pTop_feature_wrap">
                           <div class="pTop_feature_img-li jsParallax_target is-in-viewed is-showed">
-                            <div></div>
-                            <div></div>
-                            <div></div>
+                            <div class="pTop_feature_img-li_i uImg_cover -noTouch">
+                              <img
+                                src="~/assets/img/app_y.webp"
+                                alt
+                                class="pTop_feature_img-li_img uImg jsImg_preload"
+                              />
+                            </div>
+                            <div class="pTop_feature_img-li_i uImg_cover -noTouch">
+                              <img
+                                src="~/assets/img/app_r.webp"
+                                alt
+                                class="pTop_feature_img-li_img uImg jsImg_preload"
+                              />
+                            </div>
+                            <div class="pTop_feature_img-li_i uImg_cover -noTouch">
+                              <img
+                                src="~/assets/img/app_o.webp"
+                                alt
+                                class="pTop_feature_img-li_img uImg jsImg_preload"
+                              />
+                            </div>
                           </div>
                           <div class="lContainer-middle">
                             <div class="pTop_feature_inner">
@@ -124,40 +133,44 @@
                         </div>
                       </section>
                       <section class="pTop_feature -kiosk">
-                        <div class="pTop_feature -kiosk">
-                          <div class="-origin lContainer-fill pTop_feature_wrap">
-                            <div
-                              class="pTop_feature_img_block jsParallax_target is-in-viewed is-showed"
-                            >
-                              <div class="pTop_feature_img_inner uImg_cover -abs"></div>
+                        <div class="-origin lContainer-fill pTop_feature_wrap">
+                          <div
+                            class="pTop_feature_img_block jsParallax_target is-in-viewed is-showed"
+                          >
+                            <div class="pTop_feature_img_inner uImg_cover -abs">
+                              <img
+                                src="~/assets/img/kiosk.webp"
+                                alt
+                                class="pTop_feature_img uImg jsImg_preload"
+                              />
                             </div>
-                            <div class="lContainer-middle">
-                              <div class="pTop_feature_inner">
-                                <h2
-                                  class="pTop_feature_title jsParallax_target is-showed is-in-viewed PLATFORM"
-                                >PLATFORM</h2>
-                                <h2 class="pTop_feature_title APP">KIOSK</h2>
-                                <div class="cTitle pTop_feature_title-sub">
-                                  <h3>
-                                    店舗とスタッフの
-                                    <br />可能性を拡げる
-                                    <br />キャッシュレスセルフレジ
-                                  </h3>
-                                </div>
-                                <p class="cText pTop_feature_desc">
-                                  データの蓄積とともに、
-                                  <br />店舗の魅力とスタッフの能力を最大化。
-                                  <br />汎用性が高く、スピーディーに導入できるシステムで、パフォーマンスを高めたい店舗の後押しをします。
-                                </p>
-                                <a
-                                  href="/"
-                                  class="cBtn -gray -arrow -shadow jsHover pTop_feature_btn"
-                                >
-                                  <span class="cBtn_inner">
-                                    <span class="cBtn_text">PLATFORM KIOSK</span>
-                                  </span>
-                                </a>
+                          </div>
+                          <div class="lContainer-middle">
+                            <div class="pTop_feature_inner">
+                              <h2
+                                class="pTop_feature_title jsParallax_target is-showed is-in-viewed PLATFORM"
+                              >PLATFORM</h2>
+                              <h2 class="pTop_feature_title APP">KIOSK</h2>
+                              <div class="cTitle pTop_feature_title-sub">
+                                <h3>
+                                  店舗とスタッフの
+                                  <br />可能性を拡げる
+                                  <br />キャッシュレスセルフレジ
+                                </h3>
                               </div>
+                              <p class="cText pTop_feature_desc">
+                                データの蓄積とともに、
+                                <br />店舗の魅力とスタッフの能力を最大化。
+                                <br />汎用性が高く、スピーディーに導入できるシステムで、パフォーマンスを高めたい店舗の後押しをします。
+                              </p>
+                              <a
+                                href="/"
+                                class="cBtn -gray -arrow -shadow jsHover pTop_feature_btn"
+                              >
+                                <span class="cBtn_inner">
+                                  <span class="cBtn_text">PLATFORM KIOSK</span>
+                                </span>
+                              </a>
                             </div>
                           </div>
                         </div>
@@ -166,7 +179,15 @@
                         <div
                           class="-origin lContainer-fill pTop_feature_wrap jsParallax_target is-in-viewed is-showed"
                         >
-                          <div class="pTop_feature_img-block uImg_cover -abs"></div>
+                          <div class="pTop_feature_img-block uImg_cover -abs">
+                            <div class="pTop_feature_img_inner uImg_cover -abs">
+                              <img
+                                src="~/assets/img/data.webp"
+                                alt
+                                class="pTop_feature_img uImg jsImg_preload"
+                              />
+                            </div>
+                          </div>
                           <div class="lContainer-middle">
                             <div class="pTop_feature_inner">
                               <h2
@@ -204,9 +225,9 @@
                         </h2>
                         <p class="cText pTop_function_desc">
                           大切なのは、
-                          <br />お客様も現場のスタッフも使いたくなることです。
+                          <br class="mq"/>お客様も現場のスタッフも使いたくなることです。
                           <br />PLATFORMには、注文をより快適に楽しくする、
-                          <br />お店のファンを増やす機能が備わっています。
+                          <br class="mq"/>お店のファンを増やす機能が備わっています。
                         </p>
                         <ul class="pTop_function_li jsParallax_target is-in-viewed is-showed">
                           <li class="pTop_function_li_i">
@@ -283,8 +304,15 @@
                           <a href="/" class="pTop_case_banner_i jsHover">
                             <div class="pTop_case_bg">
                               <div class="pTop_case_bg_inner uImg_fit">
-                                <source media="(min-width: 767px)" data-serset="/asset/img/mv_sp.jpg">
-                                <img src="~assets/img/mv_sp.jpg" alt="" class="pTop_case_bg_img uImg_fit -fit jsLazy loaded">
+                                <source
+                                  media="(min-width: 767px)"
+                                  data-serset="/asset/img/mv_sp.jpg"
+                                />
+                                <img
+                                  src="~assets/img/mv_sp.jpg"
+                                  alt
+                                  class="pTop_case_bg_img uImg_fit -fit jsLazy loaded"
+                                />
                               </div>
                             </div>
                             <div class="pTop_case_head">
@@ -310,8 +338,63 @@
                   </div>
                   <section class="pTop_news-02">
                     <div class="lContainer">
-                      <h2>PLATFORMの最新情報</h2>
-                      
+                      <h2 class="pTop_news-02_title">PLATFORMの 最新情報</h2>
+                      <div class="pTop_news-02_body">
+                        <div class="pTop_news-02_unit">
+                          <h3 class="pTop_news-02_title-sub">ニュースリリース</h3>
+                          <ul class="pTop_news-02_li">
+                            <li class="pTop_news-02_li_i">
+                              <a href="/" class="pTop_news-02_block">
+                                <p class="pTop_news-02_date">2020.02.25</p>
+                                <p class="pTop_news-02_text">三菱商事から約5億円の資金調達を実施しました。</p>
+                              </a>
+                            </li>
+                            <li class="pTop_news-02_li_i">
+                              <a href="/" class="pTop_news-02_block">
+                                <p class="pTop_news-02_date">2020.02.25</p>
+                                <p class="pTop_news-02_text">
+                                  東急プラザ渋谷にオープンするバル＆ミュージックラウンジ「GRAND SESSION」
+                                  へモバイルオーダー運用ソリューション「PLATFORM」が導入。
+                                </p>
+                              </a>
+                            </li>
+                            <li class="pTop_news-02_li_i">
+                              <a href="/" class="pTop_news-02_block">
+                                <p class="pTop_news-02_date">2020.02.25</p>
+                                <p class="pTop_news-02_text">
+                                  TRANSIT GENERAL OFFICEの新オフィス併設カフェ
+                                  「THE TEST KITCHEN」にてモバイルオーダー運用ソリューション「PLATFORM」が導入。
+                                </p>
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="pTop_news-02_unit">
+                        <h3 class="pTop_news-02_title-sub">メディア情報</h3>
+                        <ul class="pTop_news-02_li">
+                          <li class="pTop_news-02_li_i">
+                            <a href="/" class="pTop_news-02_block">
+                              <p class="pTop_news-02_date">2020.01.10</p>
+                              <p class="pTop_news-02_text">「フーズチャネル」に、代表・宮野のインタビューが掲載されました。</p>
+                            </a>
+                          </li>
+                          <li class="pTop_news-02_li_i">
+                            <a href="/" class="pTop_news-02_block">
+                              <p class="pTop_news-02_date">2020.01.10</p>
+                              <p class="pTop_news-02_text">「フーズチャネル」に、代表・宮野のインタビューが掲載されました。</p>
+                            </a>
+                          </li>
+                          <li class="pTop_news-02_li_i">
+                            <a href="/" class="pTop_news-02_block">
+                              <p class="pTop_news-02_date">2020.01.10</p>
+                              <p
+                                class="pTop_news-02_text"
+                              >「CNET Japan FoodTech Festival 2019」に、代表・宮野が登壇しました。</p>
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
                     </div>
                   </section>
                 </div>
@@ -334,41 +417,13 @@ all {
   display: block;
   list-style: none;
 }
-.lHeader {
-  position: fixed;
-  height: 60px;
-  width: 100%;
-  background-color: white;
-  z-index: 100;
-  top: 0;
-  left: 0;
-}
-.pNav_sp {
-  position: relative;
-  height: 60px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.pNav-logo {
-  font-size: 20px;
-  font-weight: 600;
-  color: #010101;
-}
-.lMain {
-  display: block;
-  height: 8000px;
-  background-color: #ffd700;
-}
-.pNav_menu_trigger {
+.pTop_mv_bg_img.uImg_fit {
+  width: 767px;
+  height: 700px;
+  top: auto;
+  bottom: 0px;
   position: absolute;
-  display: block;
-  width: 55px;
-  height: 100%;
-  top: 0px;
-  right: 0px;
-  border: none;
-  background-color: white;
+  background-image: url("/assets/img/mv_sp.webp");
 }
 .pTop_mv {
   position: relative;
@@ -391,7 +446,7 @@ all {
   margin: 0px auto;
 }
 .pTop_mv_title {
-  margin-bottom: 30px;
+  margin-bottom: 25px;
   line-height: 1.3;
   font-size: 40px;
   font-weight: 700;
@@ -416,6 +471,67 @@ all {
 .pTop_news {
   padding: 45px 0 40px;
   background-color: #eef0f1;
+}
+.pTop_feature_inner:nth-of-type(1) {
+  padding-top: 120px;
+}
+.pTop_feature_inner:nth-of-type(2) {
+  padding-top: 0px;
+}
+.pTop_feature.-app .pTop_feature_img-li {
+  position: relative;
+  max-width: 451px;
+  width: 120.2666667vw;
+  top: auto;
+  right: auto;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.pTop_feature.-app .pTop_feature_img-li_img {
+  max-width: 117px;
+  width: 31.2vw;
+}
+.pTop_feature.-kiosk .pTop_feature_img_block {
+  padding-top: 60px;
+  position: static;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 200px;
+  background-color: #f5bf1e;
+}
+.pTop_feature.-kiosk .pTop_feature_img_inner {
+  max-width: 280px;
+  width: 74.66667vw;
+  height: auto;
+  top: 60px;
+  right: 0;
+  left: 0;
+  margin-right: auto;
+  margin-left: auto;
+}
+.pTop_feature.-kiosk .pTop_feature_img {
+  width: 100%;
+}
+.pTop_feature.-data .pTop_feature_img-block {
+  position: relative;
+  max-width: 325px;
+  width: 86.6667vw;
+  top: 0;
+  right: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+.pTop_feature.-data .pTop_feature_img {
+  width: 100%;
+}
+.lContainer {
+  margin-right: 15px;
+  margin-left: 15px;
 }
 .lContainer-middle {
   width: 90vw;
@@ -539,11 +655,6 @@ h3 {
   width: 100%;
   height: 65%;
 }
-.uImg_fit {
-  width: 100%;
-  height: 65%;
-  object-fit: cover;
-}
 .pTop_case_head {
   padding: 120px 15px;
   color: #f5f7f8;
@@ -569,5 +680,253 @@ h3 {
 .cBtn.-block {
   display: flex;
   margin: 0 auto;
+}
+.lPage {
+  background-color: #fff;
+}
+.pTop_news-02 {
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+.pTop_news-02_title {
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.pTop_news-02_unit {
+  margin-bottom: 40px;
+  border-bottom: 1px solid #eef0f1;
+}
+.pTop_news-02_title-sub {
+  font-size: 16px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+.pTop_news-02_block {
+  display: flex;
+  padding: 15px 0px;
+  border-top: 1px solid #eef0f1;
+  position: relative;
+}
+.pTop_news-02_date {
+  padding-right: 25px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 0px;
+}
+.pTop_news-02_text {
+  color: #701d07;
+  font-size: 14px;
+  line-height: 1.78;
+  position: relative;
+  margin-bottom: 0px;
+}
+
+@media screen and (min-width: 767px) {
+  .cText {
+    font-size: 10px;
+  }
+  .pTop_mv {
+    position: relative;
+    width: 100%;
+    height: 46.875vw;
+    max-height: 750px;
+    background-color: #f5bf1e;
+    z-index: 20;
+    display: block;
+  }
+  .pTop_mv_bg {
+    right: 0;
+    max-width: 3000px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
+  .pTop_mv_bg_inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .uImg_fit.-bg-fit {
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+  }
+  .uImg_fit {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
+  .pTop_mv_wrap {
+    position: relative;
+    max-width: 1600px;
+    height: 100%;
+    margin: 0 auto;
+    z-index: 60;
+    display: block;
+  }
+  .pTop_mv_inner {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    height: 80%;
+    bottom: -4rem;
+    max-width: 6000px;
+    padding-top: 0;
+  }
+  .lContainer-middle {
+    width: 85vw;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .pTop_mv_title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1.333;
+  }
+  .pTop_mv_desc {
+    font-size: 0.3125rem;
+  }
+  .pTop_news {
+    padding: 2.25rem 0;
+  }
+  .lContainer-middle {
+    width: 85vw;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .pTop_news_li_block {
+    display: flex;
+    align-items: flex-start;
+    padding: 5px;
+  }
+  .pTop_news_li_head {
+    display: flex;
+    align-items: center;
+  }
+  .pTop_news_li_desc {
+    margin-left: 1rem;
+    color: #545454;
+    padding-top: 0.15rem;
+  }
+  .pTop_news_li_date {
+    margin-right: 1rem;
+  }
+  p {
+    display: block;
+    margin-block-start: 0;
+    margin-block-end: 0;
+  }
+  .pTop_feature {
+    position: relative;
+    z-index: 10;
+  }
+  .pTop_feature.-app {
+    padding: 0px;
+  }
+  .pTop_feature.-app .pTop_feature_wrap {
+    padding-top: 5.5rem;
+    padding-bottom: 4rem;
+  }
+  .pTop_feature.-app .pTop_feature_img-li {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    top: 3rem;
+    right: -16rem;
+    left: auto;
+  }
+  .pTop_feature .pTop_feature_inner {
+    width: 23rem;
+    padding-top: 0;
+  }
+  .pTop_feature.-kiosk .pTop_feature_img_block {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 22.5rem;
+    height: 100%;
+    background-color: #f5bf1e;
+  }
+  .pTop_feature:nth-of-type(2n) .pTop_feature_inner {
+    margin-left: auto;
+  }
+  .pTop_feature.-kiosk .pTop_feature_img {
+    width: 130%;
+  }
+  .pTop_feature {
+    position: relative;
+    z-index: 10;
+  }
+  .pTop_feature.-data .pTop_feature_img {
+    position: absolute;
+    width: 120%;
+  }
+  .pTop_feature.-data .pTop_feature_wrap {
+    position: relative;
+    padding-top: 8rem;
+    padding-bottom: 2.5rem;
+  }
+  .lContainer-middle {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .lContainer-wide {
+    width: 100%;
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+  .pTop_case_banner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  .uImg_fit {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
+  .uImg_fit.-fit {
+    -o-object-fit: cover;
+    object-fit: cover;
+    font-family: "object-fit: cover";
+  }
+  .pTop_case_li {
+    height: auto;
+  }
+  .pTop_function_title {
+    line-height: 1.5;
+    font-size: 25px;
+  }
+  .pTop_function_desc {
+    color: #545454;
+    font-size: .5rem;
+    line-height: 2.185;
+  }
+  .mq {
+    display: none;
+  }
+  .pTop_function_li {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: nowrap;
+  }
+  .pTop_function_icon_text {
+    font-size: 10px;
+  }
 }
 </style>
