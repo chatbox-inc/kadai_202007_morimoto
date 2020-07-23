@@ -6,11 +6,45 @@
           <nav class="pNav">
             <div class="pNav_sp">
               <a href="/" class="pNav-logo">
-                <img src="~/assets/img/logo.svg" alt="" class="pNav_logo_img">
+                <img src="~/assets/img/logo.svg" alt class="pNav_logo_img" />
               </a>
               <button class="pNav_menu_trigger"></button>
             </div>
-            <div class="pNav_inner"></div>
+
+            <div class="pNav_inner">
+              <ul class="pNav_li">
+                <li class="pNav_li_i">
+                  <a href="/" class="pNav_link jsHover">トップ</a>
+                </li>
+                <li class="pNav_li_i">
+                  <a href="/" class="pNav_link jsHover">特徴</a>
+                </li>
+                <li class="pNav_li_i">
+                  <a href="/" class="pNav_link jsHover">機能</a>
+                </li>
+                <li class="pNav_li_i">
+                  <a href="/" class="pNav_link jsHover">ストーリー</a>
+                </li>
+                <li class="pNav_li_i">
+                  <a href="/" class="pNav_link jsHover">事例</a>
+                </li>
+                <li class="pNav_li_i">
+                  <a href="/" class="pNav_link jsHover">運用支援</a>
+                </li>
+                <li class="pNav_li_i">
+                  <a href="/" class="pNav_link jsHover">価格</a>
+                </li>
+                <li class="pNav_li_i">
+                  <a href="/" class="pNav_link jsHover">イベント・セミナー</a>
+                </li>
+                <li class="pNav_li_i">
+                  <a href="/" class="pNav_link jsHover">お問い合わせ</a>
+                </li>
+              </ul>
+              <a href="/" class="cBtn -black jsHover pNav_btn">
+                <p class="cBtn_inner">資料ダウンロード</p>
+              </a>
+            </div>
           </nav>
         </div>
       </div>
@@ -36,9 +70,16 @@
                       <div class="pFooter_info_panel_inner">
                         <div class="pFooter_info_img_block">
                           <span class="pFooter_info_img -dl">
-                            <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
-                            <path d="M0 0h24v24H0z" fill="none"/>
-                            <path d="M6 2c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6H6zm7 7V3.5L18.5 9H13z"/>
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              height="24"
+                              viewBox="0 0 24 24"
+                              width="24"
+                            >
+                              <path d="M0 0h24v24H0z" fill="none" />
+                              <path
+                                d="M6 2c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6H6zm7 7V3.5L18.5 9H13z"
+                              />
                             </svg>
                           </span>
                         </div>
@@ -51,7 +92,7 @@
                   <p class="pFooter_info_li_title">資料ダウンロード</p>
                   <p class="pFooter_info_li_content">
                     導入を検討されている方のために
-                    <br class="pc">PDF資料をご用意しています
+                    <br class="pc" />PDF資料をご用意しています
                   </p>
                 </a>
               </li>
@@ -62,9 +103,16 @@
                       <div class="pFooter_info_panel_inner">
                         <div class="pFooter_info_img_block">
                           <span class="pFooter_info_img -dl">
-                            <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
-                            <path d="M0 0h24v24H0z" fill="none"/>
-                            <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              height="24"
+                              viewBox="0 0 24 24"
+                              width="24"
+                            >
+                              <path d="M0 0h24v24H0z" fill="none" />
+                              <path
+                                d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"
+                              />
                             </svg>
                           </span>
                         </div>
@@ -80,7 +128,7 @@
                   </p>
                   <p class="pFooter_info_li_content">
                     お見積もりなど詳しいご相談は
-                    <br class="pc">お問い合わせフォームをご活用ください
+                    <br class="pc" />お問い合わせフォームをご活用ください
                   </p>
                 </a>
               </li>
@@ -91,9 +139,16 @@
                       <div class="pFooter_info_panel_inner">
                         <div class="pFooter_info_img_block">
                           <span class="pFooter_info_img -dl">
-                            <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
-                            <path d="M0 0h24v24H0z" fill="none"/>
-                            <path d="M20.01 15.38c-1.23 0-2.42-.2-3.53-.56-.35-.12-.74-.03-1.01.24l-1.57 1.97c-2.83-1.35-5.48-3.9-6.89-6.83l1.95-1.66c.27-.28.35-.67.24-1.02-.37-1.11-.56-2.3-.56-3.53 0-.54-.45-.99-.99-.99H4.19C3.65 3 3 3.24 3 3.99 3 13.28 10.73 21 20.01 21c.71 0 .99-.63.99-1.18v-3.45c0-.54-.45-.99-.99-.99z"/>
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              height="24"
+                              viewBox="0 0 24 24"
+                              width="24"
+                            >
+                              <path d="M0 0h24v24H0z" fill="none" />
+                              <path
+                                d="M20.01 15.38c-1.23 0-2.42-.2-3.53-.56-.35-.12-.74-.03-1.01.24l-1.57 1.97c-2.83-1.35-5.48-3.9-6.89-6.83l1.95-1.66c.27-.28.35-.67.24-1.02-.37-1.11-.56-2.3-.56-3.53 0-.54-.45-.99-.99-.99H4.19C3.65 3 3 3.24 3 3.99 3 13.28 10.73 21 20.01 21c.71 0 .99-.63.99-1.18v-3.45c0-.54-.45-.99-.99-.99z"
+                              />
                             </svg>
                           </span>
                         </div>
@@ -119,7 +174,7 @@
               <div class="pFooter_nav_left">
                 <div>
                   <a href="/" class="pFooter_nav_logo">
-                    <img src="~/assets/img/logo.svg" alt="" class="pNav_footer_logo_img">
+                    <img src="~/assets/img/logo.svg" alt class="pNav_footer_logo_img" />
                   </a>
                   <a href="/" class="pFooter_nav_recruit jsHover">
                     <p class="pFooter_nav_recruit_inner">
@@ -282,6 +337,235 @@ header {
   border: none;
   background-color: white;
 }
+
+@media screen and (min-width: 900px) {
+  .lHeader {
+    background-color: transparent;
+    height: auto;
+  }
+  .pNav_menu_trigger {
+    background-color: transparent;
+  }
+  .lContainer-wide.pNav_container {
+    width: 100%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .pNav {
+    position: relative;
+        margin-top: 1.3rem;
+  }
+  .pNav_sp {
+    display: flex;
+    width: 100%;
+    padding: 1.3rem 0;
+  }
+  .pNav_inner {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    text-align: center;
+    pointer-events: none;
+  }
+  .pNav_li {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    padding: 0 1em;
+    height: 100%;
+  }
+  .pNav_link {
+    padding: .8rem .4rem;
+    color: #1a1a1a;
+    font-weight: 700;
+  }
+  .pNav_logo_img {
+    width: 146px;
+    height: 17px;
+    left: 0;
+    position: absolute;
+  }
+  .cBtn.pNav_btn {
+    margin-left: auto;
+    position: absolute;
+    right: 0;
+    width: auto;
+    height: 50px;
+    background-color: #1a1a1a;
+  }
+
+
+  .lFooter {
+    position: relative;
+    z-index: 50;
+    display: block;
+  }
+  .pFooter_info {
+    position: relative;
+  }
+  .pFooter_info_inner {
+    padding: 6rem 0 4rem;
+    position: relative;
+    z-index: 10;
+  }
+  .pFooter_info_li {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 100%;
+    max-width: 50rem;
+    margin: 0px auto;
+  }
+  .pFooter_info_li_i {
+    position: relative;
+    width: 32%;
+  }
+  .pFooter_info_panel_container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 14rem;
+    padding-top: 0.5rem;
+    margin-bottom: 3rem;
+    background-color: #fff;
+    font-size: 1.6rem;
+    font-weight: 700;
+    letter-spacing: 0;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  .pNav_footer_logo_img {
+    width: 115px;
+    height: 13.75px;
+  }
+  .pFooter_nav_recruit {
+    position: relative;
+    display: block;
+    margin-top: 25px;
+  }
+  .pFooter_nav_recruit_inner {
+    display: inline-block;
+    position: relative;
+    padding: 15px;
+    margin-top: -2px;
+    line-height: 1;
+    font-size: 0;
+    z-index: 10;
+    margin-bottom: 0;
+    color: #010101;
+  }
+  .pFooter_nav_recruit_bg {
+    position: absolute;
+    border: 2px solid #1a1a1a;
+    width: 30%;
+    height: 100%;
+    left: 0;
+    border-radius: 4px;
+  }
+  .pFooter_nav_recruit_bg,
+  .pFooter_nav_recruit_inner {
+    top: -2px;
+  }
+  .pFooter_main {
+    padding: 9rem 0 6rem;
+  }
+
+  .lContainer-middle {
+    width: 85vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+   {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 4rem;
+  }
+  .pFooter_nav_left {
+    top: 0;
+    left: 0;
+    display: block;
+    width: 25vw;
+  }
+  .pFooter_nav {
+  position: relative;
+  padding-bottom: 0;
+  display: flex;
+}
+  .pFooter_nav_right {
+    display: flex;
+    bottom: 0;
+    right: 0;
+    width: 60vw;
+    columns: 2;
+  }
+  .pFooter_nav_li {
+    width: 60rem;
+    
+    line-height: 1rem;
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+  }
+  .pFooter_nav_li_i {
+    break-inside: avoid-column;
+    padding-bottom: 2.5rem;
+    padding-right: 1em;
+    list-style: none;
+  }
+  .pFooter_who {
+    display: none;
+  }
+  .pFooter_foot {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3rem;
+    border-top: 2px solid #1a1a1a;
+  }
+  .pFooter_foot_li {
+    display: flex;
+    margin-top: -1rem;
+    margin-left: -1rem;
+  }
+  .pFooter_foot_li_text {
+    position: relative;
+    display: inline-block;
+    padding: 1rem;
+  }
+  .pFooter_nav_text {
+    background-color: #f5f7f8;
+    display: inline-block;
+    padding: 1rem;
+    margin: 0 0 0 -1rem;
+    white-space: normal;
+    font-size: 10px;
+    border-bottom: none;
+  }
+  .pFooter_nav_text-sub {
+    display: inline-block;
+    position: relative;
+    padding: 1rem calc(1rem + 5px) 1rem 1.5rem;
+    margin: 1rem 0 0 0.5rem;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 10px;
+    border-bottom: none;
+  }
+}
+</style>
+
+// footer
+<style scoped>
 .lFooter {
   position: relative;
   z-index: 50;
@@ -428,7 +712,8 @@ header {
   left: 0;
   border-radius: 4px;
 }
-.pFooter_nav_recruit_bg,.pFooter_nav_recruit_inner {
+.pFooter_nav_recruit_bg,
+.pFooter_nav_recruit_inner {
   top: -2px;
 }
 .pFooter_nav_left {
@@ -442,7 +727,7 @@ header {
 }
 .pFooter_nav_right {
   display: block;
-  width: 100%;
+  width: 60vw;
 }
 .pFooter_nav_li {
   width: 100%;
@@ -522,168 +807,4 @@ header {
   font-weight: 700;
   color: #010101;
 }
-@media screen and (min-width: 767px) {
-  .lHeader {
-    background-color: transparent;
-  }
-  .pNav_menu_trigger {
-    background-color: transparent;
-  }
-  .lFooter {
-    position: relative;
-    z-index: 50;
-    display: block;
-  }
-  .pFooter_info {
-    position: relative;
-  }
-  .pFooter_info_inner {
-    padding: 6rem 0 4rem;
-    position: relative;
-    z-index: 10;
-  }
-  .pFooter_info_li {
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-    width: 100%;
-    max-width: 50rem;
-    margin: 0px auto;
-  }
-  .pFooter_info_li_i {
-    position: relative;
-    width: 32%;
-  }
-  .pFooter_info_panel_container {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    width: 100%;
-    height: 14rem;
-    padding-top: .5rem;
-    margin-bottom: 3rem;
-    background-color: #fff;
-    font-size: 1.6rem;
-    font-weight: 700;
-    letter-spacing: 0;
-    border-radius: 4px;
-    overflow: hidden;
-  }
-  .pNav_footer_logo_img {
-  width: 115px;
-  height: 13.75px;
-}
-.pFooter_nav_recruit {
-  position: relative;
-  display: block;
-  margin-top: 25px;
-}
-.pFooter_nav_recruit_inner {
-  display: inline-block;
-  position: relative;
-  padding: 15px;
-  margin-top: -2px;
-  line-height: 1;
-  font-size: 0;
-  z-index: 10;
-  margin-bottom: 0;
-  color: #010101;
-}
-.pFooter_nav_recruit_bg {
-  position: absolute;
-  border: 2px solid #1a1a1a;
-  width: 30%;
-  height: 100%;
-  left: 0;
-  border-radius: 4px;
-}
-.pFooter_nav_recruit_bg,.pFooter_nav_recruit_inner {
-  top: -2px;
-}
-  .pFooter_main {
-    padding: 9rem 0 6rem;
-  }
-  
-  .lContainer-middle {
-    width: 85vw;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .pFooter_nav {
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    padding-bottom: 4rem;
-  }
-  .pFooter_nav_left {
-    top: 0;
-    left: 0;
-    display: block;
-  }
-  .pFooter_nav_right {
-    display: flex;
-    bottom: 0;
-    right: 0;
-  }
-  .pFooter_nav_li {
-    width: 60rem;
-    column-count: 2;
-    line-height: 1rem;
-    display: block;
-    list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
-  }
-  .pFooter_nav_li_i {
-    break-inside: avoid-column;
-    padding-bottom: 2.5rem;
-    padding-right: 1em;
-    list-style: none;
-  }
-  .pFooter_who {
-    display: none;
-  }
-.pFooter_foot {
-    display: flex;
-    justify-content: space-between;
-    padding-top: 3rem;
-    border-top: 2px solid #1a1a1a;
-  }
-  .pFooter_foot_li {
-    display: flex;
-    margin-top: -1rem;
-    margin-left: -1rem;
-  }
-  .pFooter_foot_li_text {
-    position: relative;
-    display: inline-block;
-    padding: 1rem;
-    
-  }
-  .pFooter_nav_text {
-    background-color: #f5f7f8;
-    display: inline-block;
-    padding: 1rem;
-    margin: 0 0 0 -1rem;
-    white-space: normal;
-    font-size: 10px;
-    border-bottom: none;
-  }
-  .pFooter_nav_text-sub {
-    display: inline-block;
-    position: relative;
-    padding: 1rem calc(1rem + 5px) 1rem 1.5rem;
-    margin: 1rem 0 0 .5rem;
-    white-space: nowrap;
-    overflow: hidden;
-    font-size: 10px;
-    border-bottom: none;
-  }
-}
-
 </style>

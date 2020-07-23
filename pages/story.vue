@@ -355,7 +355,6 @@ p {
 .pBanner-download_banner_inner {
   width: 100%;
   height: auto;
-  min-height: 150px;
   /* padding: 15px 15px 15px 10px; */
   position: relative;
   display: flex;
@@ -368,7 +367,7 @@ p {
   border-radius: 4px;
 }
 .pBanner-download_banner_icon {
-  width: 30%;
+  width: 20%;
   height: auto;
   background-size: cover;
 }
@@ -398,7 +397,14 @@ p {
   margin-left: 15px;
   text-align: left;
 }
-@media screen and (min-width: 767px) {
+.pBanner-download_banner_desc {
+  font-size: 12px;
+}
+.pBanner-download_banner_title {
+  font-size: 14px;
+  font-weight: 600;
+}
+@media screen and (min-width: 900px) {
   h2 {
     font-size: 18.75px;
   }
@@ -548,6 +554,7 @@ p {
   }
   .pBanner-download_banner_inner {
     min-height: 0;
+    min-height: 150px;
   }
 }
 </style>
