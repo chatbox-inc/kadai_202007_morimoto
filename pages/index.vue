@@ -677,10 +677,6 @@ h3 {
   widows: 100%;
   height: 497px;
 }
-.cBtn.-block {
-  display: flex;
-  margin: 0 auto;
-}
 .lPage {
   background-color: #fff;
 }

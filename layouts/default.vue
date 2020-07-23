@@ -300,6 +300,9 @@ export default {};
 </script>
 
 <style>
+.cBtn.-yellow {
+  background-color: #f5bf1e;
+}
 header {
   overflow: hidden;
 }
@@ -337,235 +340,6 @@ header {
   border: none;
   background-color: white;
 }
-
-@media screen and (min-width: 900px) {
-  .lHeader {
-    background-color: transparent;
-    height: auto;
-  }
-  .pNav_menu_trigger {
-    background-color: transparent;
-  }
-  .lContainer-wide.pNav_container {
-    width: 100%;
-    padding-left: 2rem;
-    padding-right: 2rem;
-  }
-  .pNav {
-    position: relative;
-        margin-top: 1.3rem;
-  }
-  .pNav_sp {
-    display: flex;
-    width: 100%;
-    padding: 1.3rem 0;
-  }
-  .pNav_inner {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    text-align: center;
-    pointer-events: none;
-  }
-  .pNav_li {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    white-space: nowrap;
-    padding: 0 1em;
-    height: 100%;
-  }
-  .pNav_link {
-    padding: .8rem .4rem;
-    color: #1a1a1a;
-    font-weight: 700;
-  }
-  .pNav_logo_img {
-    width: 146px;
-    height: 17px;
-    left: 0;
-    position: absolute;
-  }
-  .cBtn.pNav_btn {
-    margin-left: auto;
-    position: absolute;
-    right: 0;
-    width: auto;
-    height: 50px;
-    background-color: #1a1a1a;
-  }
-
-
-  .lFooter {
-    position: relative;
-    z-index: 50;
-    display: block;
-  }
-  .pFooter_info {
-    position: relative;
-  }
-  .pFooter_info_inner {
-    padding: 6rem 0 4rem;
-    position: relative;
-    z-index: 10;
-  }
-  .pFooter_info_li {
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-    width: 100%;
-    max-width: 50rem;
-    margin: 0px auto;
-  }
-  .pFooter_info_li_i {
-    position: relative;
-    width: 32%;
-  }
-  .pFooter_info_panel_container {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    width: 100%;
-    height: 14rem;
-    padding-top: 0.5rem;
-    margin-bottom: 3rem;
-    background-color: #fff;
-    font-size: 1.6rem;
-    font-weight: 700;
-    letter-spacing: 0;
-    border-radius: 4px;
-    overflow: hidden;
-  }
-  .pNav_footer_logo_img {
-    width: 115px;
-    height: 13.75px;
-  }
-  .pFooter_nav_recruit {
-    position: relative;
-    display: block;
-    margin-top: 25px;
-  }
-  .pFooter_nav_recruit_inner {
-    display: inline-block;
-    position: relative;
-    padding: 15px;
-    margin-top: -2px;
-    line-height: 1;
-    font-size: 0;
-    z-index: 10;
-    margin-bottom: 0;
-    color: #010101;
-  }
-  .pFooter_nav_recruit_bg {
-    position: absolute;
-    border: 2px solid #1a1a1a;
-    width: 30%;
-    height: 100%;
-    left: 0;
-    border-radius: 4px;
-  }
-  .pFooter_nav_recruit_bg,
-  .pFooter_nav_recruit_inner {
-    top: -2px;
-  }
-  .pFooter_main {
-    padding: 9rem 0 6rem;
-  }
-
-  .lContainer-middle {
-    width: 85vw;
-    margin-left: auto;
-    margin-right: auto;
-  }
-   {
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    padding-bottom: 4rem;
-  }
-  .pFooter_nav_left {
-    top: 0;
-    left: 0;
-    display: block;
-    width: 25vw;
-  }
-  .pFooter_nav {
-  position: relative;
-  padding-bottom: 0;
-  display: flex;
-}
-  .pFooter_nav_right {
-    display: flex;
-    bottom: 0;
-    right: 0;
-    width: 60vw;
-    columns: 2;
-  }
-  .pFooter_nav_li {
-    width: 60rem;
-    
-    line-height: 1rem;
-    display: block;
-    list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
-  }
-  .pFooter_nav_li_i {
-    break-inside: avoid-column;
-    padding-bottom: 2.5rem;
-    padding-right: 1em;
-    list-style: none;
-  }
-  .pFooter_who {
-    display: none;
-  }
-  .pFooter_foot {
-    display: flex;
-    justify-content: space-between;
-    padding-top: 3rem;
-    border-top: 2px solid #1a1a1a;
-  }
-  .pFooter_foot_li {
-    display: flex;
-    margin-top: -1rem;
-    margin-left: -1rem;
-  }
-  .pFooter_foot_li_text {
-    position: relative;
-    display: inline-block;
-    padding: 1rem;
-  }
-  .pFooter_nav_text {
-    background-color: #f5f7f8;
-    display: inline-block;
-    padding: 1rem;
-    margin: 0 0 0 -1rem;
-    white-space: normal;
-    font-size: 10px;
-    border-bottom: none;
-  }
-  .pFooter_nav_text-sub {
-    display: inline-block;
-    position: relative;
-    padding: 1rem calc(1rem + 5px) 1rem 1.5rem;
-    margin: 1rem 0 0 0.5rem;
-    white-space: nowrap;
-    overflow: hidden;
-    font-size: 10px;
-    border-bottom: none;
-  }
-}
-</style>
-
-// footer
-<style scoped>
 .lFooter {
   position: relative;
   z-index: 50;
@@ -731,7 +505,7 @@ header {
 }
 .pFooter_nav_li {
   width: 100%;
-  columns: auto;
+  columns: 2;
   margin-bottom: 50px;
   line-height: 1;
 }
@@ -806,5 +580,229 @@ header {
   font-size: 10px;
   font-weight: 700;
   color: #010101;
+}
+
+@media screen and (min-width: 900px) {
+  .lHeader {
+    background-color: transparent;
+    height: auto;
+  }
+  .pNav_menu_trigger {
+    background-color: transparent;
+  }
+  .lContainer-wide.pNav_container {
+    width: 100%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .pNav {
+    position: relative;
+    margin-top: 1.3rem;
+  }
+  .pNav_sp {
+    display: flex;
+    width: 100%;
+    padding: 1.3rem 0;
+  }
+  .pNav_inner {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    text-align: center;
+    pointer-events: none;
+  }
+  .pNav_li {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    padding: 0 1em;
+    height: 100%;
+  }
+  .pNav_link {
+    padding: 0.8rem 0.4rem;
+    color: #1a1a1a;
+    font-weight: 700;
+  }
+  .pNav_logo_img {
+    width: 146px;
+    height: 17px;
+    left: 0;
+    position: absolute;
+  }
+  .cBtn.pNav_btn {
+    margin-left: auto;
+    position: absolute;
+    right: 0;
+    width: auto;
+    height: 50px;
+    background-color: #1a1a1a;
+  }
+
+  .lFooter {
+    position: relative;
+    z-index: 50;
+    display: block;
+  }
+  .pFooter_info {
+    position: relative;
+  }
+  .pFooter_info_inner {
+    padding: 6rem 0 4rem;
+    position: relative;
+    z-index: 10;
+  }
+  .pFooter_info_li {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 100%;
+    max-width: 50rem;
+    margin: 0px auto;
+  }
+  .pFooter_info_li_i {
+    position: relative;
+    width: 32%;
+  }
+  .pFooter_info_panel_container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 14rem;
+    padding-top: 0.5rem;
+    margin-bottom: 3rem;
+    background-color: #fff;
+    font-size: 1.6rem;
+    font-weight: 700;
+    letter-spacing: 0;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  .pNav_footer_logo_img {
+    width: 115px;
+    height: 13.75px;
+  }
+  .pFooter_nav_recruit {
+    position: relative;
+    display: block;
+    margin-top: 25px;
+  }
+  .pFooter_nav_recruit_inner {
+    display: inline-block;
+    position: relative;
+    padding: 15px;
+    margin-top: -2px;
+    line-height: 1;
+    font-size: 0;
+    z-index: 10;
+    margin-bottom: 0;
+    color: #010101;
+  }
+  .pFooter_nav_recruit_bg {
+    position: absolute;
+    border: 2px solid #1a1a1a;
+    width: 60%;
+    height: 100%;
+    left: 0;
+    border-radius: 4px;
+  }
+  .pFooter_nav_recruit_bg,
+  .pFooter_nav_recruit_inner {
+    top: -2px;
+  }
+  .pFooter_main {
+    padding: 4rem 0 3rem;
+  }
+
+  .lContainer-middle {
+    width: 85vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .pFooter_nav {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 4rem;
+  }
+  .pFooter_nav_left {
+    top: 0;
+    left: 0;
+    display: block;
+    width: 25vw;
+  }
+  .pFooter_nav {
+    position: relative;
+    padding-bottom: 0;
+    display: flex;
+  }
+  .pFooter_nav_right {
+    display: flex;
+    bottom: 0;
+    right: 0;
+    width: 60vw;
+    columns: 2;
+    margin-left: auto;
+  }
+  .pFooter_nav_li {
+    width: 60rem;
+    line-height: 1rem;
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    margin-top: 0;
+  }
+  .pFooter_nav_li_i {
+    break-inside: avoid-column;
+    padding-left: 0;
+    list-style: none;
+  }
+  .pFooter_who {
+    display: none;
+  }
+  .pFooter_foot {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3rem;
+    border-top: 2px solid #1a1a1a;
+  }
+  .pFooter_foot_li {
+    display: flex;
+    margin-top: -1rem;
+    margin-left: -1rem;
+  }
+  .pFooter_foot_li_text {
+    position: relative;
+    display: inline-block;
+    padding: 1rem;
+  }
+  .pFooter_nav_text {
+    background-color: #f5f7f8;
+    display: inline-block;
+    padding: 1rem;
+    margin: 0 0 0 -1rem;
+    white-space: normal;
+    font-size: 10px;
+    border-bottom: none;
+  }
+  .pFooter_nav_text-sub {
+    display: inline-block;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 10px;
+    border-bottom: none;
+  }
 }
 </style>
