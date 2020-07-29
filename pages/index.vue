@@ -601,7 +601,19 @@ h3 {
   font-weight: 700;
   line-height: 1.4;
 }
-.cBtn.-gray {
+.cBtn.-gray.pTop_feature_btn {
+  display: block;
+  width: 280px;
+  height: 50px;
+  padding: 10px;
+  border-radius: 4px;
+  background-color: #4c4d55;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  
+}
+.cBtn.-gray.pFooter_nav_btn {
   display: block;
   width: 280px;
   height: 50px;
@@ -728,10 +740,14 @@ h3 {
 }
 
 @media screen and (min-width: 900px) {
-  .br {
+  h3 {
+    text-align: left;
+  }
+  .mq {
     display: none;
   }
   .cText {
+    text-align: left;
     font-size: 0.8rem;
     margin-bottom: 2rem;
   }
