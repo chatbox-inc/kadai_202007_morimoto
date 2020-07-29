@@ -10,7 +10,9 @@
                   <section class="pTop_mv">
                     <div class="pTop_mv_bg">
                       <div class="pTop_mv_bg_inner uImg_fit jsLoad_top_mv">
-                        <div class="pTop_mv_bg_img uImg_fit -bg-fit jsImg_preload -bgLoad"></div>
+                        <div class="pTop_mv_bg_img uImg_fit -bg-fit jsImg_preload -bgLoad">
+                          
+                        </div>
                       </div>
                     </div>
                     <div class="pTop_mv_wrap">
@@ -412,11 +414,6 @@ export default {};
 </script>
 
 <style>
-all {
-  box-sizing: border-box;
-  display: block;
-  list-style: none;
-}
 .pTop_mv_bg_img.uImg_fit {
   width: 767px;
   height: 700px;
@@ -472,28 +469,37 @@ all {
   padding: 45px 0 40px;
   background-color: #eef0f1;
 }
-.pTop_feature_inner:nth-of-type(1) {
-  padding-top: 120px;
-}
-.pTop_feature_inner:nth-of-type(2) {
+ .pTop_feature_inner:first-of-type{
   padding-top: 0px;
 }
+.pTop_feature.-kiosk .pTop_feature_inner {
+  padding-top: 120px;
+}
+
 .pTop_feature.-app .pTop_feature_img-li {
   position: relative;
   max-width: 451px;
   width: 120.2666667vw;
   top: auto;
-  right: auto;
-  left: 50%;
-  transform: translateX(-50%);
-  margin-bottom: 30px;
+  
+  margin: 0 auto;
+  
   display: flex;
   justify-content: space-between;
 }
 .pTop_feature.-app .pTop_feature_img-li_img {
-  max-width: 117px;
-  width: 31.2vw;
+  min-width: 117px;
+  max-width: 210px;
+  width: 15vw;
 }
+.pTop_feature_img-li_i:first-of-type {
+    margin-top: 5rem;
+    margin-right: 3rem;
+  }
+  .pTop_feature_img-li_i:nth-of-type(2) {
+    margin-top: 2.5rem;
+    margin-right: 3rem;
+  }
 .pTop_feature.-kiosk .pTop_feature_img_block {
   padding-top: 60px;
   position: static;
@@ -595,8 +601,8 @@ h3 {
   font-weight: 700;
   line-height: 1.4;
 }
-.cBtn {
-  display: inline-block;
+.cBtn.-gray {
+  display: block;
   width: 280px;
   height: 50px;
   padding: 10px;
@@ -605,6 +611,7 @@ h3 {
   color: #fff;
   font-size: 14px;
   font-weight: 700;
+  margin: 0 auto;
 }
 .cBtn_inner {
   align-items: center;
@@ -720,9 +727,13 @@ h3 {
   margin-bottom: 0px;
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 900px) {
+  .br {
+    display: none;
+  }
   .cText {
-    font-size: 10px;
+    font-size: 0.8rem;
+    margin-bottom: 2rem;
   }
   .pTop_mv {
     position: relative;
@@ -796,11 +807,7 @@ h3 {
   .pTop_news {
     padding: 2.25rem 0;
   }
-  .lContainer-middle {
-    width: 85vw;
-    margin-right: auto;
-    margin-left: auto;
-  }
+
   .pTop_news_li_block {
     display: flex;
     align-items: flex-start;
@@ -827,6 +834,10 @@ h3 {
     position: relative;
     z-index: 10;
   }
+  .-origin.lContainer-fill.pTop_feature_wrap {
+    padding-top: 6rem;
+    padding-bottom: 5rem;
+  }
   .pTop_feature.-app {
     padding: 0px;
   }
@@ -840,25 +851,33 @@ h3 {
     justify-content: space-between;
     top: 3rem;
     right: -16rem;
-    left: auto;
+    left: 50%;
+    right: auto;
+    margin-bottom: 30px;
   }
+  
   .pTop_feature .pTop_feature_inner {
-    width: 23rem;
+    width: 37vw;
     padding-top: 0;
   }
   .pTop_feature.-kiosk .pTop_feature_img_block {
     position: absolute;
     top: 0;
     left: 0;
-    width: 22.5rem;
-    height: 100%;
+    width: 30vw;
+    padding-top: 7vw;
+    height: 80%;
+    margin-top: 120px;
     background-color: #f5bf1e;
   }
   .pTop_feature:nth-of-type(2n) .pTop_feature_inner {
     margin-left: auto;
+    padding-top: 0;
   }
   .pTop_feature.-kiosk .pTop_feature_img {
-    width: 130%;
+    width: 40vw;
+    min-width: 100%;
+    max-width: 560px;
   }
   .pTop_feature {
     position: relative;
@@ -866,17 +885,16 @@ h3 {
   }
   .pTop_feature.-data .pTop_feature_img {
     position: absolute;
-    width: 120%;
+    width: 30vw;
+    max-width: 650px;
+    min-width: 406.25px;
   }
   .pTop_feature.-data .pTop_feature_wrap {
     position: relative;
     padding-top: 8rem;
     padding-bottom: 2.5rem;
   }
-  .lContainer-middle {
-    margin-right: auto;
-    margin-left: auto;
-  }
+
   .lContainer-wide {
     width: 100%;
     padding-right: 2rem;

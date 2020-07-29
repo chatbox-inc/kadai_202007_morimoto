@@ -453,13 +453,13 @@ p {
   .pStory_mv_copy {
     position: absolute;
     padding-top: 7.5vw;
-    padding-right: 18.75vw;
+    padding-right: 20vw;
     padding-left: 6.25vw;
     padding-bottom: 0px;
     margin: 0px;
     right: 0;
     z-index: 20;
-    transform: translateY(175%);
+    bottom: -9rem;
   }
   .pStory_flow_inner {
     display: flex;
@@ -477,6 +477,11 @@ p {
     padding-right: 31.25px;
     padding-left: 31.25px;
   }
+  .pStory_mv_title {
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 1.45;
+}
   .pStory_flow_head:nth-of-type(1) {
     margin-bottom: 30px;
     height: calc(76.92308vw - 30px);

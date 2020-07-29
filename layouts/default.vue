@@ -262,8 +262,8 @@
                       </span>
                     </span>
                   </a>
-                  <a href="/" class="cBtn -yellow jsHover pFooter_nav_btn" data-v-560c5cfc>
-                    <span class="cBtn_inner" data-v-560c5cfc>
+                  <a href="/" class="cBtn -yellow jsHover pFooter_nav_btn">
+                    <span class="cBtn_inner">
                       <span class="cBtn_text">
                         <span class="pFooter_nav_btn_inner jsSplit">お問い合わせ</span>
                       </span>
@@ -301,6 +301,15 @@ export default {};
 
 <style>
 .cBtn.-yellow {
+  display: block;
+  width: 280px;
+  height: 50px;
+  padding: 10px;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  margin: 0 auto;
   background-color: #f5bf1e;
 }
 header {
@@ -501,11 +510,11 @@ header {
 }
 .pFooter_nav_right {
   display: block;
-  width: 60vw;
+  width: 100vw;
 }
 .pFooter_nav_li {
   width: 100%;
-  columns: 2;
+  
   margin-bottom: 50px;
   line-height: 1;
 }
@@ -545,10 +554,6 @@ header {
   width: 100%;
   align-items: center;
   justify-content: center;
-}
-.cBtn_inner[data-v-560c5cfc] {
-  background-color: #f5bf1e;
-  color: #010101;
 }
 .pFooter_nav_btn {
   margin-bottom: 10px;
@@ -639,6 +644,7 @@ header {
     width: auto;
     height: 50px;
     background-color: #1a1a1a;
+    color: #f5f7f8;
   }
 
   .lFooter {
@@ -760,6 +766,7 @@ header {
     margin-inline-end: 0px;
     padding-inline-start: 40px;
     margin-top: 0;
+    columns: 2;
   }
   .pFooter_nav_li_i {
     break-inside: avoid-column;
